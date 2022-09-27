@@ -1,0 +1,19 @@
+[package]
+name = "rasberry_pi_qemu"
+version = "0.1.0"
+edition = "2021"
+authors = ["Tavaris Johnson"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+bsp_rpi4 = []
+
+[[bin]]
+name = "kernel"
+path = "src/main.rs"
+
+[dev-dependencies]
+
+[dependencies]
+panic-halt="0.2.0"
