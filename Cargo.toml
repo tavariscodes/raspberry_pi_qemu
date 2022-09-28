@@ -16,4 +16,3 @@ path = "src/main.rs"
 [dev-dependencies]
 
 [dependencies]
-panic-halt="0.2.0"
