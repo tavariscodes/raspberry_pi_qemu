@@ -8,6 +8,7 @@ authors = ["Tavaris Johnson"]
 
 [features]
 bsp_rpi4 = []
+bsp_rpi3 = []
 
 [[bin]]
 name = "kernel"
